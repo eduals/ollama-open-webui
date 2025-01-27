@@ -3,8 +3,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = ''               # change this before deploying!
-primary_region = 'ord'
+app = 'app-llm'               # change this before deploying!
+primary_region = 'gru'
 
 [env]
 DEFAULT_MODEL = 'llama3.1:8b'
